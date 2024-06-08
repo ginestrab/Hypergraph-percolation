@@ -1,3 +1,27 @@
+/**************************************************************************************************
+ * If you use this code, please cite G. Bianconi and S. Dorogovstev
+ "Theory of percolation on hypergraphs"
+ Physical Review E, 109, p.014306 (2024).
+***************************************************************************************************
+ * Code that  reads a hypegraph from an edge list of nodes connected to hyperegdes (here tested on senate_hypergraph.txt)
+	then performs MonteCarlo simulations and Message Passing predictions of nodes, 
+	and hyperedge percolation using the factor node and the hypergraph algorithm
+ *
+ * This code uses:
+ * N  Number of nodes
+ * M number of hyperedges
+ * m  fixed cardinality of the hypedges
+ * Hyperedge: options 1/0 Hyperedge=1 for hyperedge percolation and Hyperedge=0 for node percolation.
+ * Hypergraph: options 1/0  Hypergraph 1 performs Hypergraph percolation if Hyperedge=0 
+               otherwise performs factor graph percolation
+ * 	       Hypergraph can be 1 only for Hyperedge=0
+ *
+ * Nrunmax  Number of MonteCarlo simulations
+ *************************************************************************************************/
+
+
+
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
