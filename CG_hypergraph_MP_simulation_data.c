@@ -3,7 +3,9 @@
  "Theory of percolation on hypergraphs"
  Physical Review E, 109, p.014306 (2024).
 ***************************************************************************************************
- * Code that  reads a hypegraph from an edge list of nodes connected to hyperegdes (here tested on senate_hypergraph.txt)
+ * Code that  reads a hypegraph from an edge list of nodes connected to hyperegdes 
+         with nodes numbered between 0 and N and hyperedges numbered between N+1 and N+Q.
+ 	(here tested on senate_hypergraph.txt)
 	then performs MonteCarlo simulations and Message Passing predictions of nodes, 
 	and hyperedge percolation using the factor node and the hypergraph algorithm
  *
