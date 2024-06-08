@@ -1,9 +1,11 @@
-**************************************************************************************************
+/**************************************************************************************************
  * If you use this code, please cite G. Bianconi and S. Dorogovstev
  "Theory of percolation on hypergraphs"
  Physical Review E, 109, p.014306 (2024).
 ***************************************************************************************************
- * Code that  generates random hypergraph whose hyperedge have fixed cardinality and then performs MonteCarlo simulations and Message Passing predictions of nodes, and hyperedge percolation using the factor node and the hypergraph algorithm
+ * Code that  generates random hypergraph whose hyperedge have fixed cardinality and 
+	then performs MonteCarlo simulations and Message Passing predictions of nodes, 
+	and hyperedge percolation using the factor node and the hypergraph algorithm
  *
  * This code uses:
  * N  Number of nodes
