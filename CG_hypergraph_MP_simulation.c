@@ -11,9 +11,10 @@
  * N  Number of nodes
  * M number of hyperedges
  * m  fixed cardinality of the hypedges
- * Hyperedge options 1/0 Hyperedge=1 for hyperedge percolation and Hyperedge=0 for node percolation.
- * Hypergraph 1/0  Hypergraph 1 perfroms Hypergraph percolation if Hyperedge=0 otherwise performs factor graph percolation
- * Hypergraph can be 1 only for Hyperedge=0
+ * Hyperedge: options 1/0 Hyperedge=1 for hyperedge percolation and Hyperedge=0 for node percolation.
+ * Hypergraph: options 1/0  Hypergraph 1 performs Hypergraph percolation if Hyperedge=0 
+               otherwise performs factor graph percolation
+ * 	       Hypergraph can be 1 only for Hyperedge=0
  *
  * Nrunmax  Number of MonteCarlo simulations
  *************************************************************************************************/
