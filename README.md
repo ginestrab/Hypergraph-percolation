@@ -12,7 +12,7 @@ Specifically the code applies the algorithm to a random model of hypergraph with
 This is a c code to perform both Monte Carlo simulations and Message Passing (MP) predictions of node and hyperedge percolation on Factor Graphs and Hypergraphs.
 Specifically the code applies the algorithm to a real networks read as an edge list.
 
-3. 'senate_hypergraph.txt'
+3. 'senate_hypergraph.txt' 
 
 Example of real hypegraph data stored as an edge list between nodes and hyperedges. Data coming from Austin Benson respository https://www.cs.cornell.edu/~arb/data/
 If you want to use this dataset in published work please refer to Austin Benson webpage for properly acknowledging the source of data.
