@@ -7,7 +7,7 @@ This repository contains:
 This is a c code to perform both Monte Carlo simulations and Message Passing (MP) predictions of node and hyperedge percolation on Factor Graphs and Hypergraphs.
 Specifically the code applies the algorithm to a random model of hypergraph with constant hyperedge cadinality.
 
-2. 'GC_hypergra_MP_simulation.data.c'
+2. 'GC_hypergrah_MP_simulation.data.c'
 
 This is a c code to perform both Monte Carlo simulations and Message Passing (MP) predictions of node and hyperedge percolation on Factor Graphs and Hypergraphs.
 Specifically the code applies the algorithm to a real networks read as an edge list.
